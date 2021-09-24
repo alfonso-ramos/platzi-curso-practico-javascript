@@ -1,7 +1,5 @@
 # platzi-curso-practico-javascript
 
-...
-
 ## Taller #1: Figuras geométricas
 
 - Primer paso: Definir las fórmulas
