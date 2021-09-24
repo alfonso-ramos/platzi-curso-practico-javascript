@@ -1,3 +1,52 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 00;
+}
+html{
+    font-size: 62.5%;
+    position: relative;
+}
+/* Estilos del header */
+header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    padding: 25px 0;
+}
+header h1{
+    font-size: 3.5rem;
+    font-weight: ;
+}
+header h2{
+    font-size: 2rem;
+}
+/* Estilos del cuerpo de la pagina */
+main{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.box{
+    border: 1px solid black;
+    width: 30%;
+    margin: 5% auto;
+}
+.box-title{
+    border: 1px solid black ;
+    background-color: red;
+    color: white;
+}
+
+/* Estilos del footer */
+footer{
+    width: 100%;
+    height: 25%;
+    padding: 25px;
+    position: relative;
+    bottom: 0;
+    background-color: #ced2dc;
 }
