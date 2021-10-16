@@ -17,34 +17,34 @@
         </p>
     </header>
 
-    <section>
+    <section class="instuctions">
         <h2>
             Calcula el precio a pagar de tus productos con descuento
         </h2>
     </section>
+    <section class="formulario-descuentos">
+        <form action="">
+            <label for="inputPrice">
+                <p>Escribe el precio de tu producto</p>
+            </label>
+            <input type="number" id="inputPrice" placeholder="Precio">
 
-    <form action="">
-        <label for="inputPrice">
-            Escribe el precio de tu producto
-        </label>
-        <input type="number" id="inputPrice">
+            <br>
 
-        <br>
+            <label for="inputDiscount">
+                <p>Escribe el descuento de tu producto</p>
+            </label>
+            <input type="number" id="inputDiscount" placeholder="Descuento">
 
-        <label for="inputDiscount">
-            Escribe el descuento de tu producto
-        </label>
-        <input type="number" id="inputDiscount">
+            <br>
 
-        <br>
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular el precio con descuento
+            </button>
 
-        <button type="button" onclick="onClickButtonPriceDiscount()">
-            Calcular el precio con descuento
-        </button>
-
-        <p id="resultPrice"></p>
-    </form>
-
+            <p id="resultPrice"></p>
+        </form>
+    </section>
     <script src="descuentos.js"></script>
 </body>
 </html>

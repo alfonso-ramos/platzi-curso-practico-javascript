@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/Style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="CSS/Style.css">
     <title>Figuras geométricas | Curso practico de JavaScript en Platzi</title>
 </head>
 <body>
@@ -25,6 +27,7 @@
         </p>
     </header>
     <main>
+        <!-- Calculadora de area y perimetro del cuadrado -->
         <section class="box">
             <div class="box-title">
                 <h2>
@@ -51,7 +54,7 @@
         <section class="box">
             <div class="box-title">
                 <h2>
-                    Calcula el área y el perímetro de un triangulo
+                    Calcula el área, el perímetro y la altura de un triangulo isósceles.
                 </h2>
             </div>
 
@@ -70,6 +73,9 @@
                 </button>
                 <button type="button" onclick="calcularAreaTriangulo()">
                     Calcular el área
+                </button>
+                <button type="button" onclick="calcularAlturaTriangulo()">
+                    Calcular altura de un triangulo isósceles.
                 </button>
             </form>
         </section>
