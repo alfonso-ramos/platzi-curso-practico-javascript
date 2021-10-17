@@ -20,3 +20,7 @@
 - Segundo paso: implementar la fórmula en JavaScript
 - Tercer paso: crear funciones
 - Cuarto paso: Integrar JS con HTML
+- (Este taller todavia esta incompleto)
+
+## Taller #4: Analisis de salarios
+
